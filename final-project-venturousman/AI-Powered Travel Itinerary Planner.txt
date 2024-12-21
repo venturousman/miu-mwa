@@ -1,0 +1,38 @@
+Group 3
+Wanderwise
+AI-Powered Travel Itinerary Planner
+	Description: An application where users input destinations, dates, and preferences, and the AI generates a complete travel itinerary.
+Features:
+	Customizable itineraries based on user inputs.
+	Provide recommendations for places to visit, eat, and stay.
+	Save and share itineraries with friends.
+Tech Use:
+	Angular: Interface for inputting preferences and viewing itineraries.
+	Node/Express: Backend for managing itineraries.
+	OpenAI API: Generate itineraries and suggestions.
+
+======================================================================================================
+
+- Login form
+- Register form
+- List 
+- Input/Ask Travel Itinerary form
+	+ input destination (dropdown to select, autocomplete, or map)
+	+ input dates (picker)
+	+ preferences (textbox, budgets, type of stays, people, atmosphere: cozy, vintage..)
+	+ AI: summarize, Itinerary details (day by day, sections, activities, transports ...)
+	+ save
+	+ share (advanced if have time)
+	
+- List Itinerary form
+	+ detele
+	+ select to update (optional)
+
+
+- potential features:
+	- can i take my pet??
+
+======================================================================================================
+
+https://www.youtube.com/watch?v=dKTu15LgrvU
+

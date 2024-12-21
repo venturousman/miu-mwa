@@ -1,0 +1,93 @@
+
+// recommendationSchema
+const itinerarySchema = new Schema({
+    destination: { type: String, required: true },
+    latitude: { type: Number, required: true },
+    longitude: { type: Number, required: true },
+    preferences: { type: String },
+    startDate: { type: Date, required: true },
+    endDate: { type: Date, required: true },
+
+    hotels: String,
+    restaurants: String,
+    attractions: String,
+    weather: String,
+    response: String, // Store the response text or JSON
+
+    createdAt: { type: Date, default: Date.now },
+
+    userId: { type: String, required: true }, // Optional: associate with a user
+    // shareableId: { type: String, unique: true }, // Unique ID for sharing
+    // itinerary: { type: Object, required: true }, // OpenAI's response
+
+    context: [                 // Array to store messages
+        {
+          role: String,          // 'system', 'user', or 'assistant'
+          content: String        // Message content or answer
+        }
+      ],
+});
+
+======================================
+
+
+
+
+Plain Text:
+[Your itinerary as a string here...]
+
+JSON:
+{
+    "overview": "Overview content...",
+    "details": {
+        "day1": "Details for day 1...",
+        "day2": "Details for day 2..."
+    },
+    "recommendations": ["Note 1", "Note 2"]
+}
+
+
+// Extract content
+const fullResponse = response.choices[0]?.message?.content;
+
+// Split the response into plain text and JSON
+const [plainText, jsonPart] = fullResponse.split('JSON:');
+
+// Clean up and parse
+const plainTextResponse = plainText.replace('Plain Text:', '').trim();
+const jsonResponse = JSON.parse(jsonPart.trim());
+
+console.log('Plain Text:', plainTextResponse);
+console.log('JSON Response:', jsonResponse);
+
+
+=====================================
+
+Activity Logs Collection (Optional)
+Stores logs for user interactions, useful for tracking and improving AI recommendations.
+
+{
+  "_id": ObjectId,
+  "userId": ObjectId, // References Users
+  "action": String, // e.g., "Generated Itinerary", "Saved Itinerary", "Viewed Destination"
+  "details": String, // Additional information about the action
+  "timestamp": Date
+}
+
+
+==================================
+
+Reviews Collection
+Stores user reviews for destinations or itineraries.
+
+{
+  "_id": ObjectId,
+  "userId": ObjectId, // References Users
+  "itineraryId": ObjectId, // References Itineraries (optional)
+  "destinationId": ObjectId, // References Destinations (optional)
+  "rating": Number, // 1 to 5
+  "comment": String,
+  "createdAt": Date,
+  "updatedAt": Date
+}
+

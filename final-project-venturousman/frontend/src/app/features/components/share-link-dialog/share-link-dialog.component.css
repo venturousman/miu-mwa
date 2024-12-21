@@ -1,0 +1,50 @@
+.share-link-dialog {
+  padding: 30px;
+}
+
+.share-link-dialog-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.share-link-dialog-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.share-link-dialog-subtitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.share-link-dialog-content{
+  padding: 20px 0 40px 0;
+}
+
+.share-link-container{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.share-link{
+  flex: 1;
+  display: inline-block;
+  margin-right: 10px;
+  background: rgba(85, 85, 85, 0.37);
+  text-align: center;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

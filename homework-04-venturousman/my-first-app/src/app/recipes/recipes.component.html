@@ -1,0 +1,15 @@
+<div>
+    <h1>Recipes</h1>
+    <mat-paginator
+        [length]="recipes().length"
+        [pageSize]="pageSize"
+        (page)="onPageChange($event)"
+    ></mat-paginator>
+    <mat-grid-list cols="3" rowHeight="1:1" gutterSize="16px">
+        @for (recipe of displayRecipes(); track recipe.id; let idx = $index) {
+        <mat-grid-tile>
+            <recipe [data]="recipe" />
+        </mat-grid-tile>
+        }
+    </mat-grid-list>
+</div>

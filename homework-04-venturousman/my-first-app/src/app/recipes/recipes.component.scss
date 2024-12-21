@@ -1,0 +1,31 @@
+/* recipes.component.scss */
+
+:host {
+    display: block;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 16px;
+}
+
+mat-grid-list {
+    width: 100%;
+    margin: 0 auto;
+}
+
+mat-grid-tile {
+    background: #f5f5f5;
+    border-radius: 8px;
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+recipe {
+    display: block;
+    width: 100%;
+}

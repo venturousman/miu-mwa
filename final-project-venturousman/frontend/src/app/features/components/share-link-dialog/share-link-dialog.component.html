@@ -1,0 +1,22 @@
+<div class="share-link-dialog">
+  <mat-card-header>
+    <div class="share-link-dialog-header">
+      <button mat-icon-button mat-dialog-close>
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+    <p class="share-link-dialog-title">Share itinerary</p>
+    <p class="share-link-dialog-subtitle">Share this link with your friends and let them join the fun!</p>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="share-link-dialog-content">
+      <div class="share-link-container">
+        <div class="share-link"><span> {{ data.link }}</span></div>
+        <button mat-icon-button (click)="handleCopy()">
+          <mat-icon>content_copy</mat-icon>
+        </button>
+      </div>
+
+    </div>
+  </mat-card-content>
+</div>

@@ -1,0 +1,73 @@
+Yes, there are several free APIs that provide information about hotels and attractions by location. Here are some options:
+
+---
+
+### 1. **OpenTripMap API**
+   - **Description**: OpenTripMap offers data about places of interest, attractions, and accommodations worldwide.
+   - **Features**:
+     - Access points of interest (POIs) like landmarks, museums, and restaurants.
+     - Filter POIs by category.
+   - **Pricing**: Free tier available with limited requests per day; paid plans for higher limits.
+   - **Docs**: [OpenTripMap API](https://opentripmap.io/product)
+   - **Example Use**: Get attractions in a city with GPS coordinates.
+
+---
+
+### 2. **Travel Advisor API by RapidAPI**
+   - **Description**: Provides hotel and attraction information by location, including reviews and photos.
+   - **Features**:
+     - Get details about hotels, restaurants, and activities.
+     - Filter by rating, price, and other criteria.
+   - **Pricing**: Free tier available via RapidAPI with request limits.
+   - **Docs**: [Travel Advisor API](https://rapidapi.com/apidojo/api/travel-advisor)
+
+---
+
+### 3. **Amadeus Travel APIs**
+   - **Description**: Comprehensive travel data, including hotels, attractions, and more.
+   - **Features**:
+     - Get information about points of interest and nearby hotels.
+     - Location-based filtering.
+   - **Pricing**: Free tier available with limited requests; paid plans for higher usage.
+   - **Docs**: [Amadeus for Developers](https://developers.amadeus.com/)
+
+---
+
+### 4. **Geoapify Places API**
+   - **Description**: Provides POIs like hotels, restaurants, and attractions with location-based filtering.
+   - **Features**:
+     - Detailed information about places.
+     - Works well with OpenStreetMap data.
+   - **Pricing**: Free tier includes 3,000 requests/day.
+   - **Docs**: [Geoapify Places API](https://apidocs.geoapify.com/docs/places/)
+
+---
+
+### 5. **Yelp Fusion API**
+   - **Description**: Get details about local businesses, including hotels and attractions.
+   - **Features**:
+     - Business information, ratings, reviews, and photos.
+     - Location-based search.
+   - **Pricing**: Free with a limit of 5,000 requests/day.
+   - **Docs**: [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3)
+
+---
+
+### 6. **TomTom Places API**
+   - **Description**: Provides POI search capabilities, including hotels and attractions.
+   - **Features**:
+     - Search by category or keywords.
+     - Location-based filtering.
+   - **Pricing**: Free tier available with 2,500 requests/day.
+   - **Docs**: [TomTom Places API](https://developer.tomtom.com/products/places)
+
+---
+
+### Recommendations for Your Project
+Since you're building an **AI-powered Travel Itinerary Planner**, OpenTripMap or Geoapify could be ideal due to their integration with OpenStreetMap. They provide a good free tier, are easy to integrate, and allow for rich filtering options.
+
+Let me know if you want help with API integration or examples!
+
+
+
+https://jfcere.github.io/ngx-markdown/get-started#configuration

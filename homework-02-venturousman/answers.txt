@@ -1,0 +1,21 @@
+1. Define what is ObjectId (https://www.mongodb.com/docs/manual/reference/bson-types/#objectid) and what data it includes?
+
+ObjectIds are small, likely unique, fast to generate, and ordered. 
+ObjectId values are 12 bytes in length, consisting of:
+    + A 4-byte timestamp, representing the ObjectId's creation, measured in seconds since the Unix epoch.
+    + A 5-byte random value generated once per process. This random value is unique to the machine and process.
+    + A 3-byte incrementing counter, initialized to a random value.
+
+If an integer value is used to create an ObjectId, the integer replaces the timestamp.
+
+2. How do we set a field to an ObjectId type in Mongoose?
+```typescript
+const schema = new mongoose.Schema({
+  fieldName: { type: mongoose.Schema.Types.ObjectId }
+});
+```
+
+3. How do we generate a new ObjectId in Mongoose?
+```typescript
+const newId = mongoose.Types.ObjectId();
+```

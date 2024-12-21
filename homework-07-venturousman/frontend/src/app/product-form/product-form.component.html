@@ -1,0 +1,50 @@
+<div class="product-form">
+    <h1 *ngIf="productForm.get('id')?.value; else addProduct">Edit Product</h1>
+    <ng-template #addProduct>
+        <h1>Add Product</h1>
+    </ng-template>
+
+    <form (ngSubmit)="onSubmit()" [formGroup]="productForm">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input
+                type="text"
+                id="title"
+                name="title"
+                [formControl]="productForm.controls.title"
+            />
+        </div>
+        @if(productForm.controls.title.invalid &&
+        (productForm.controls.title.dirty ||
+        productForm.controls.title.touched)){
+        <div>
+            @if(productForm.controls.title.hasError('required')){
+            <span class="error">Title is required</span>
+            }
+        </div>
+        }
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input
+                type="number"
+                id="price"
+                name="price"
+                [formControl]="productForm.controls.price"
+            />
+        </div>
+        @if(productForm.controls.price.invalid &&
+        (productForm.controls.price.dirty ||
+        productForm.controls.price.touched)){
+        <div>
+            @if(productForm.controls.price.hasError('required')){
+            <span class="error">Price is required</span>
+            } @if(productForm.controls.price.hasError('min')){
+            <span class="error">Price must be greater than 0</span>
+            }
+        </div>
+        }
+        <button type="submit">
+            {{ productForm.get('id')?.value ? 'Update' : 'Add' }} Product
+        </button>
+    </form>
+</div>

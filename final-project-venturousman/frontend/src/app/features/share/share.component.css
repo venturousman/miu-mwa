@@ -1,0 +1,17 @@
+.shared-container{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.itinerary-content{
+  /*width: 70%;*/
+}
+
+.error-container{
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

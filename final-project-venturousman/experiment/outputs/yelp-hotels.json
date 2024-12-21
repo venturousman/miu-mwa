@@ -1,0 +1,1545 @@
+[
+    {
+        "id": "nwvo49wYOrSfg3AhafhZvA",
+        "alias": "the-beekman-a-thompson-hotel-new-york",
+        "name": "The Beekman, A Thompson Hotel",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/II5wvegCUPQVYntIXrAhsw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-beekman-a-thompson-hotel-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 217,
+        "categories": [
+            { "alias": "hotels", "title": "Hotels" },
+            { "alias": "venues", "title": "Venues & Event Spaces" }
+        ],
+        "rating": 4.2,
+        "coordinates": { "latitude": 40.7111443, "longitude": -74.0066413 },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "123 Nassau St",
+            "address2": null,
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10038",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["123 Nassau St", "New York, NY 10038"]
+        },
+        "phone": "+12122332300",
+        "display_phone": "(212) 233-2300",
+        "distance": 191.87596060698598,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "SZTBP6Xj7ER4d3NSbgOA-A",
+        "alias": "four-seasons-hotel-new-york-4",
+        "name": "Four Seasons Hotel",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/eFMKSvUeepYM8AIxXokVXg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/four-seasons-hotel-new-york-4?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 78,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.2,
+        "coordinates": {
+            "latitude": 40.71264339026144,
+            "longitude": -74.0091883883457
+        },
+        "transactions": [],
+        "price": "$$$$",
+        "location": {
+            "address1": "27 Barclay St",
+            "address2": "",
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10007",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["27 Barclay St", "New York, NY 10007"]
+        },
+        "phone": "+16468801999",
+        "display_phone": "(646) 880-1999",
+        "distance": 269.2953472559655,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "NIpWK8ncyIz-ZhT_swINtQ",
+        "alias": "the-artezen-new-york",
+        "name": "Artezen Hotel",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qNDRWkZ1GOW5ZgxokC-Xvw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-artezen-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 74,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.5,
+        "coordinates": { "latitude": 40.70964, "longitude": -74.00869 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "24 John St",
+            "address2": "",
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10038",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["24 John St", "New York, NY 10038"]
+        },
+        "phone": "+12125665511",
+        "display_phone": "(212) 566-5511",
+        "distance": 426.1423552212019,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "svW0v_j18STsq5Ua-8waZg",
+        "alias": "the-dominick-new-york",
+        "name": "The Dominick",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Rd58oMoMIwSWSbPwNXYsNA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-dominick-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 403,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.8,
+        "coordinates": {
+            "latitude": 40.72546541976049,
+            "longitude": -74.00532992757799
+        },
+        "transactions": [],
+        "price": "$$$$",
+        "location": {
+            "address1": "246 Spring St",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10013",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["246 Spring St", "New York, NY 10013"]
+        },
+        "phone": "+12128425500",
+        "display_phone": "(212) 842-5500",
+        "distance": 1409.4605992823444,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "nCs9BDwN5MEgoIp1xT6DMQ",
+        "alias": "albany-new-york",
+        "name": "albany",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/v6_syirXA195sBhmSqBsmw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/albany-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 3,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.3,
+        "coordinates": { "latitude": 42.65036, "longitude": -73.75481 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": null,
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "12207",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["New York, NY 12207"]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 3.5775756685182283,
+        "business_hours": [],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "GXqlI0p_NQejvDEgq0xQ9w",
+        "alias": "conrad-new-york-downtown-new-york",
+        "name": "Conrad New York Downtown",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/eeLhsrNPgttiEPy3Z3tGxQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/conrad-new-york-downtown-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 398,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.2,
+        "coordinates": { "latitude": 40.71503, "longitude": -74.0158397 },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "102 N End Ave",
+            "address2": null,
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10282",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["102 N End Ave", "New York, NY 10282"]
+        },
+        "phone": "+12129450100",
+        "display_phone": "(212) 945-0100",
+        "distance": 865.5962365141764,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "GYO8lvStXGZAfFDRlOxQ1Q",
+        "alias": "hotel-50-bowery-new-york-2",
+        "name": "Hotel 50 Bowery",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/k9Pp_tZnVEJ9yiZi1fEMqA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/hotel-50-bowery-new-york-2?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 267,
+        "categories": [
+            { "alias": "hotels", "title": "Hotels" },
+            { "alias": "venues", "title": "Venues & Event Spaces" }
+        ],
+        "rating": 4.3,
+        "coordinates": { "latitude": 40.71595, "longitude": -73.99683 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "50 Bowery",
+            "address2": null,
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10013",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["50 Bowery", "New York, NY 10013"]
+        },
+        "phone": "+12125088000",
+        "display_phone": "(212) 508-8000",
+        "distance": 848.5352629531321,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "EL5j67uhlTWSFcrsEX9l_Q",
+        "alias": "the-frederick-hotel-new-york",
+        "name": "The Frederick Hotel",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/b2VsOgtmkSZvOllPNfAnwg/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-frederick-hotel-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 79,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4,
+        "coordinates": { "latitude": 40.71566, "longitude": -74.0089 },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": "95 W Broadway",
+            "address2": "",
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10007",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["95 W Broadway", "New York, NY 10007"]
+        },
+        "phone": "+12125661900",
+        "display_phone": "(212) 566-1900",
+        "distance": 400.2175141998389,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "m1luegMTBe6DohXz5GOJsQ",
+        "alias": "the-wall-street-hotel-new-york",
+        "name": "The Wall Street Hotel",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Uk1GWLLY5OTekJwspn-HkQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-wall-street-hotel-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 34,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.7,
+        "coordinates": { "latitude": 40.7054495, "longitude": -74.0075335 },
+        "transactions": [],
+        "location": {
+            "address1": "88 Wall St",
+            "address2": null,
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10005",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["88 Wall St", "New York, NY 10005"]
+        },
+        "phone": "+12126889255",
+        "display_phone": "(212) 688-9255",
+        "distance": 837.8372784278171,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "03EFU3OR6j085vqGAXwVbA",
+        "alias": "gild-hall-a-thompson-hotel-new-york-4",
+        "name": "Gild Hall, A Thompson Hotel",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/IwlJTyG1leHKKwtQcIjRiA/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/gild-hall-a-thompson-hotel-new-york-4?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 275,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.2,
+        "coordinates": { "latitude": 40.7078, "longitude": -74.00694 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "15 Gold St",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10038",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["15 Gold St", "New York, NY 10038"]
+        },
+        "phone": "+12122327700",
+        "display_phone": "(212) 232-7700",
+        "distance": 555.1258178821292,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "jVAAy1KrvskicNnLcn8ylw",
+        "alias": "nobleden-new-york",
+        "name": "NobleDEN",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JZrXM41n2wvctDLkkVgGeQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/nobleden-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 131,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4.4,
+        "coordinates": { "latitude": 40.71929, "longitude": -73.99686 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "196 Grand St",
+            "address2": null,
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10013",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["196 Grand St", "New York, NY 10013"]
+        },
+        "phone": "+12123908988",
+        "display_phone": "(212) 390-8988",
+        "distance": 1058.262407277566,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "RBHSPpLaalwkAPfF2uJaTw",
+        "alias": "millennium-hilton-new-york-downtown-new-york-2",
+        "name": "Millennium Hilton New York Downtown",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/98bxuyc_X0q9hF0Acs-e4w/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/millennium-hilton-new-york-downtown-new-york-2?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 450,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.3,
+        "coordinates": { "latitude": 40.71126, "longitude": -74.01031 },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "55 Church St",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10007",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["55 Church St", "New York, NY 10007"]
+        },
+        "phone": "+12126932001",
+        "display_phone": "(212) 693-2001",
+        "distance": 396.4390560801661,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "5Qr-a-5i3p0RcMNW5CKcdQ",
+        "alias": "moxy-nyc-downtown-new-york",
+        "name": "Moxy NYC Downtown",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/iwONA_G8hPRTHe_K0twy6w/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/moxy-nyc-downtown-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 140,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.2,
+        "coordinates": { "latitude": 40.710725, "longitude": -74.007861 },
+        "transactions": [],
+        "location": {
+            "address1": "26 Ann St",
+            "address2": null,
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10038",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["26 Ann St", "New York, NY 10038"]
+        },
+        "phone": "+12122578886",
+        "display_phone": "(212) 257-8886",
+        "distance": 271.95504173417606,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "giPwSjP4T0ZkXoygdbNfIA",
+        "alias": "club-quarters-manhattan-manhattan",
+        "name": "Club Quarters - Manhattan",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/d7Ikwvyj8xVBNwFkHa7hWw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/club-quarters-manhattan-manhattan?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 217,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.8,
+        "coordinates": {
+            "latitude": 40.709846496582,
+            "longitude": -74.0139694213867
+        },
+        "transactions": [],
+        "price": "$$",
+        "location": {
+            "address1": "140 Washington St",
+            "address2": "",
+            "address3": "",
+            "city": "Manhattan",
+            "zip_code": "10006",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["140 Washington St", "Manhattan, NY 10006"]
+        },
+        "phone": "+12125771133",
+        "display_phone": "(212) 577-1133",
+        "distance": 746.1291597214295,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "7X5dByOWa-nXY_2eBnVcHw",
+        "alias": "the-roxy-hotel-new-york-new-york",
+        "name": "The Roxy Hotel -New York",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Oo7n26xsO1l7VxdWnrkg-Q/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/the-roxy-hotel-new-york-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 521,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.7,
+        "coordinates": {
+            "latitude": 40.71917989999957,
+            "longitude": -74.00491905747161
+        },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "2 6th Ave",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10013",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["2 6th Ave", "New York, NY 10013"]
+        },
+        "phone": "+12125196600",
+        "display_phone": "(212) 519-6600",
+        "distance": 715.2374513256417,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "MHIjmjutRioVe3T-Hv_S0Q",
+        "alias": "sheraton-towers-new-york",
+        "name": "Sheraton towers",
+        "image_url": "",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/sheraton-towers-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 2,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 5,
+        "coordinates": { "latitude": null, "longitude": null },
+        "transactions": [],
+        "location": {
+            "address1": null,
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["New York, NY"]
+        },
+        "phone": "",
+        "display_phone": "",
+        "distance": 3.5775756685182283,
+        "business_hours": [],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "hgxKRLRia2Yh_jDNXli9Tg",
+        "alias": "smyth-tribeca-new-york-2",
+        "name": "Smyth Tribeca",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3DdJesmRWn5FIPnMDVnGDQ/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/smyth-tribeca-new-york-2?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 132,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.6,
+        "coordinates": { "latitude": 40.71521, "longitude": -74.00913 },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "85 W Broadway",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10007",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["85 W Broadway", "New York, NY 10007"]
+        },
+        "phone": "+19179972700",
+        "display_phone": "(917) 997-2700",
+        "distance": 376.07167022724735,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "HsfNLFKADPZUNXsRVx9_dA",
+        "alias": "citizenm-new-york-bowery-hotel-new-york-2",
+        "name": "citizenM New York Bowery Hotel",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/46j1iBqwyeyeBB6WFPgZmw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/citizenm-new-york-bowery-hotel-new-york-2?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 184,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 3.9,
+        "coordinates": { "latitude": 40.72069, "longitude": -73.99366 },
+        "transactions": [],
+        "price": "$",
+        "location": {
+            "address1": "189 Bowery",
+            "address2": "",
+            "address3": null,
+            "city": "New York",
+            "zip_code": "10002",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["189 Bowery", "New York, NY 10002"]
+        },
+        "phone": "+12123727274",
+        "display_phone": "(212) 372-7274",
+        "distance": 1360.631822680358,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "0xp3lHJWVIH-dSxg-uMCUg",
+        "alias": "crosby-street-hotel-new-york",
+        "name": "Crosby Street Hotel",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/dF1UQ75yKcKoGG55yyeK5w/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/crosby-street-hotel-new-york?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 176,
+        "categories": [{ "alias": "hotels", "title": "Hotels" }],
+        "rating": 4,
+        "coordinates": { "latitude": 40.72302838, "longitude": -73.99744294 },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "79 Crosby St",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10012",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["79 Crosby St", "New York, NY 10012"]
+        },
+        "phone": "+12122266400",
+        "display_phone": "(212) 226-6400",
+        "distance": 1346.713177755036,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    },
+    {
+        "id": "jDBXpS5bX4f-tiaAz1ZZbA",
+        "alias": "hyatt-centric-wall-street-new-york-3",
+        "name": "Hyatt Centric Wall Street",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/XOCi-YmlBuLCBB2YM5YSMw/o.jpg",
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/hyatt-centric-wall-street-new-york-3?adjust_creative=VA6z7_6aAL8d95xbtMWQfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=VA6z7_6aAL8d95xbtMWQfw",
+        "review_count": 336,
+        "categories": [
+            { "alias": "hotels", "title": "Hotels" },
+            { "alias": "venues", "title": "Venues & Event Spaces" }
+        ],
+        "rating": 3.9,
+        "coordinates": {
+            "latitude": 40.70518384154538,
+            "longitude": -74.00806892699991
+        },
+        "transactions": [],
+        "price": "$$$",
+        "location": {
+            "address1": "75 Wall St",
+            "address2": "",
+            "address3": "",
+            "city": "New York",
+            "zip_code": "10005",
+            "country": "US",
+            "state": "NY",
+            "display_address": ["75 Wall St", "New York, NY 10005"]
+        },
+        "phone": "+12125901234",
+        "display_phone": "(212) 590-1234",
+        "distance": 864.6457769256298,
+        "business_hours": [
+            {
+                "open": [
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": true,
+                        "start": "0000",
+                        "end": "0000",
+                        "day": 6
+                    }
+                ],
+                "hours_type": "REGULAR",
+                "is_open_now": true
+            }
+        ],
+        "attributes": {
+            "business_temp_closed": null,
+            "waitlist_reservation": null
+        }
+    }
+]

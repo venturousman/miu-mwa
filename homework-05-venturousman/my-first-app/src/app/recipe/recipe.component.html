@@ -1,0 +1,59 @@
+<mat-card appearance="outlined">
+    <mat-card-header>
+        <mat-card-title>{{ data()?.name }}</mat-card-title>
+        <mat-card-subtitle>
+            {{ data()?.cuisine }} | {{ data()?.difficulty }} | Rating:
+            {{ data()?.rating }} ({{ data()?.reviewCount }} reviews)
+        </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <div class="recipe-image">
+            <img [src]="data()?.image" alt="{{ data()?.name }}" />
+        </div>
+
+        <div class="recipe-summary">
+            <p>
+                <strong>Prep Time:</strong>
+                {{ data()?.prepTimeMinutes }} minutes
+            </p>
+            <p>
+                <strong>Cook Time:</strong>
+                {{ data()?.cookTimeMinutes }} minutes
+            </p>
+            <p><strong>Servings:</strong> {{ data()?.servings }}</p>
+            <p>
+                <strong>Calories:</strong> {{ data()?.caloriesPerServing }} per
+                serving
+            </p>
+        </div>
+
+        <!-- <div class="recipe-tags">
+            <mat-chip-list>
+                <mat-chip *ngFor="let tag of data()?.tags">{{ tag }}</mat-chip>
+            </mat-chip-list>
+        </div> -->
+
+        <!-- <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+                <li *ngFor="let ingredient of data()?.ingredients">
+                    {{ ingredient }}
+                </li>
+            </ul>
+        </div> -->
+
+        <!-- <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+                <li *ngFor="let instruction of data()?.instructions">
+                    {{ instruction }}
+                </li>
+            </ol>
+        </div> -->
+    </mat-card-content>
+
+    <!-- <mat-card-footer>
+        <p>Rating: {{ data()?.rating }} ({{ data()?.reviewCount }} reviews)</p>
+    </mat-card-footer> -->
+</mat-card>

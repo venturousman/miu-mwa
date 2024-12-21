@@ -1,0 +1,37 @@
+<header class="header">
+  <div class="logo">
+    <a routerLink="/" class="header-logo">
+      <div class="logo-container">
+        <img src="ww-icon.png" class="logo" />
+        <span class="logo-text-1">Wander</span
+        ><span class="logo-text-2">wise</span>
+      </div>
+    </a>
+  </div>
+
+  <nav class="nav-links">
+    <a
+      routerLink="/dashboard"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    @if (this.authState.isAuthenticated()) {
+    <a routerLink="/profile" routerLinkActive="active">Profile</a>
+    }
+    <a routerLink="/about-us" routerLinkActive="active">About Us</a>
+  </nav>
+
+  <div class="auth-links">
+    @if (this.authState.isAuthenticated()) {
+    <a routerLink="/profile" routerLinkActive="active">
+      <div class="circle-image">
+        <img [src]="this.authState.avatarUrl" alt="Circular Image" />
+      </div>
+    </a>
+    } @else {
+    <a (click)="showPopupLogin()" class="auth-content">Log in</a>
+    <button mat-flat-button (click)="showPopupSignUp()">Sign up</button>
+    }
+  </div>
+</header>

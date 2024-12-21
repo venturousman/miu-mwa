@@ -1,0 +1,12 @@
+### itinerary
+POST http://localhost:3000/api/itinerary/recommend
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwYTM1YjIzY2I3ODQxZjA5NzA4NWQiLCJmdWxsbmFtZSI6IkFsYW4gU21pdGgiLCJlbWFpbCI6ImFsYW5zbWl0aEBtaXUuZWR1IiwianRpIjoiY2U1MzVjNjQtODM3YS00NTFjLWFiNzQtZWU4MDI3MTMzMTY3IiwiaWF0IjoxNzM0Mzg2NTQ4LCJleHAiOjE3MzQzODc0NDh9.zHJ0End3V3-Wj1isjwNzx8QNH2FlKFUzWDhF4lKBHlg
+Content-Type: application/json
+
+{
+    "destination": "New York",
+    "lat": 40.7128,
+    "lon": -74.0060,
+    "startDate": "2024-12-20",
+    "endDate": "2024-12-23"
+}

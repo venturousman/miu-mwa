@@ -1,0 +1,43 @@
+.itinerary-detail-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.itinerary-detail-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fetching-data {
+  margin-top: 10px;
+}
+
+.id-body {
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Apply custom scrollbar styles to elements with the .app-archived-dialog-container .itinerary-detail-container .id-body class */
+.itinerary-detail-container .id-body {
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.itinerary-detail-container .id-body::-webkit-scrollbar {
+  width: 12px;
+}
+
+.itinerary-detail-container .id-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.itinerary-detail-container .id-body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.itinerary-detail-container .id-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

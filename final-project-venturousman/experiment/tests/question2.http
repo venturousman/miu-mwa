@@ -1,0 +1,29 @@
+### POST: proofread
+POST http://localhost:3000/api/proofread
+Content-Type: application/json
+
+{ "text": "I has a cat who loves playing with his toys." }
+
+### POST: friendly
+POST http://localhost:3000/api/friendly
+Content-Type: application/json
+
+{ "text": "Submit the document by Friday." }
+
+### POST: professional
+POST http://localhost:3000/api/professional
+Content-Type: application/json
+
+{ "text": "Hey, send me that report." }
+
+### POST: summarize
+POST http://localhost:3000/api/summarize
+Content-Type: application/json
+
+{ "text": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think and learn. These systems can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation." }
+
+### POST: keypoints
+POST http://localhost:3000/api/keypoints
+Content-Type: application/json
+
+{ "text": "The company increased its revenue by 20% last quarter, launched a new product line, and expanded into two new markets." }

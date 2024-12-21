@@ -1,0 +1,26 @@
+
+### Get all users
+GET http://localhost:3000/api/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzUyNzExZWZiNDI5NTkzYjczZDdhYzYiLCJpYXQiOjE3MzM0NTY1NTMsImV4cCI6MTczMzQ1NzQ1M30.NVA-huw6S-wf1_N5YbKSkevjmjCRt1OEVl4tznsVKAs
+
+### Create a user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "fullname": "John Doe",
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+// NOTE: no comma at the end of the JSON object
+
+### Create a user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "fullname": "Alan Smith",
+    "email": "alansmith@miu.edu",
+    "password": "Passw@rd"
+}

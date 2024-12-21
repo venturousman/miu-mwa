@@ -1,0 +1,25 @@
+<div class="confirm-dialog">
+  <mat-card-header>
+    <div class="confirm-dialog-header">
+      <button mat-icon-button mat-dialog-close>
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+    <p class="confirm-dialog-title">{{ data.title }}</p>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="confirm-dialog-content">
+      <p class="confirm-dialog-message">{{ data.message }}</p>
+    </div>
+  </mat-card-content>
+  <mat-card-footer>
+    <div class="confirm-dialog-footer">
+      <button mat-button (click)="handlePositive()">
+        {{ data.positive_text }}
+      </button>
+      <button mat-button (click)="handleNegative()">
+        {{ data.negative_text }}
+      </button>
+    </div>
+  </mat-card-footer>
+</div>

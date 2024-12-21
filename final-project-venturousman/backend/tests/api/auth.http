@@ -1,0 +1,55 @@
+### signin
+POST http://localhost:3000/api/auth/signin
+Content-Type: application/json
+
+{
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+
+### refresh token
+POST http://localhost:3000/api/auth/refresh-token
+Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwYTM1YjIzY2I3ODQxZjA5NzA4NWQiLCJmdWxsbmFtZSI6IkFsYW4gU21pdGgiLCJlbWFpbCI6ImFsYW5zbWl0aEBtaXUuZWR1IiwianRpIjoiMTExOTFhMWUtZjViZS00YWM1LWJmYjUtNjgwOTljNTlhMTdiIiwiaWF0IjoxNzM0Mzg2NTQ4LCJleHAiOjE3MzQ5OTEzNDh9.aiR1u71V7hy1cxiJfUug23p-ZPLqb_6CCXwD3dEudhE
+Content-Type: application/json
+
+### signout
+POST http://localhost:3000/api/auth/signout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVjZDljMTZhYmMwZDg2ZGM0NTRmZTMiLCJmdWxsbmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huZG9lQG1pdS5lZHUiLCJqdGkiOiIzOTdjZDkwOS01YWZmLTQwN2UtYWM3MS0xNWY2ZThlMDg0YTkiLCJpYXQiOjE3MzQxMzgzMDksImV4cCI6MTczNDEzOTIwOX0.vLphX55hU8EqJBRNSgnTKzf6fZY8Gi1SPZg8OTFfL_Q
+Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwNTI4M2U2MjE4YmJiZmM1MmM2NmEiLCJmdWxsbmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huZG9lQG1pdS5lZHUiLCJqdGkiOiI5NzA1NjVjYS1jN2FkLTQzZDItOGQ4My0yYTg2MjUwNGUzNDkiLCJpYXQiOjE3MzQzNjU4MzAsImV4cCI6MTczNDk3MDYzMH0.HfXIhExTT18VW4q6_3yzB4osPNN0tEIhkMtdHgZBa9o
+Content-Type: application/json
+
+### signup a user
+POST http://localhost:3000/api/auth/signup
+Content-Type: application/json
+
+{
+    "fullname": "John Doe",
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+// NOTE: no comma at the end of the JSON object
+
+### signup a user
+POST http://localhost:3000/api/auth/signup
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="fullname"
+
+Alan Smith
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+alansmith@miu.edu
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="password"
+
+Passw@rd
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="profile_picture"; filename="puppy.jpg"
+Content-Type: image/jpeg
+
+< ../../puppy.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###

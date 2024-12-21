@@ -1,0 +1,25 @@
+// install REST Client extension in VSCode to run this file
+
+### Get all diaries
+GET http://localhost:3000/api/diaries
+Content-Type: application/json
+
+### Create a diary
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+    "user_id": "675239fb32e23fb36c1a97f3",
+    "title": "My first diary",
+    "description": "This is my first diary"
+}
+
+### Create a diary
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+    "user_id": "675239fb32e23fb36c1a97f3",
+    "title": "My second diary",
+    "description": "This is my second diary"
+}

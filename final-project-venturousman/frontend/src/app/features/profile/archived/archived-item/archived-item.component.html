@@ -1,0 +1,19 @@
+<div class="archived-item">
+  <div class="sl-name">
+    <p>{{ data()!.destination }}</p>
+  </div>
+
+  <div class="sl-date">
+    <p>{{ formatDateToDDMMYYYY(data()?.startDate ?? '') }} - {{ formatDateToDDMMYYYY(data()?.endDate ?? '') }}</p>
+  </div>
+
+  <div class="sl-action">
+    <button mat-icon-button (click)="handleOnViewItem(data()!.id)" [disabled]="disableAction()">
+      <mat-icon>visibility</mat-icon>
+    </button>
+    <button mat-icon-button (click)="handleOnRemoveItem(data()!.id)" [disabled]="disableAction()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+</div>

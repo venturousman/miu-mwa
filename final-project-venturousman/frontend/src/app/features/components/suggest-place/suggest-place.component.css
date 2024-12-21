@@ -1,0 +1,63 @@
+/* General Layout */
+.city-choice {
+  text-align: center;
+  margin: 20px;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  width: 300px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--theme-primary-color);
+  font-size: 1.0em;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.booking-id {
+  color: #444;
+  font-size: 0.9em;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.hotel-name {
+  color: gray;
+  font-size: 0.9em;
+  margin-top: 4px;
+}

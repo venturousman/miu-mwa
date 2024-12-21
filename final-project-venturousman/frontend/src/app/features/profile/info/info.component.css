@@ -1,0 +1,110 @@
+.profile-container {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-form {
+  padding: 30px;
+  width: 90%;
+  max-width: 420px;
+  align-content: center;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.update-form-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.update-form-icon {
+  text-align: center;
+}
+
+.update-form-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.update-form-subtitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.update-form-button {
+  margin-top: 50px;
+  padding-bottom: 4px;
+}
+
+.update-button {
+  width: 100%;
+}
+
+.update-form-footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.update-form-footer .update {
+  padding-left: 10px;
+  font-weight: 600;
+  color: #1668E3;
+  cursor: pointer;
+}
+
+.custom-file-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.circle-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #84bd00;
+}
+
+.circle-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the button without distortion */
+  border-radius: 50%; /* Ensures the image itself is circular */
+}
+
+.toggle-view {
+  cursor: pointer;
+}
+
+.avatar-button {
+  background: #cccccc !important;
+}

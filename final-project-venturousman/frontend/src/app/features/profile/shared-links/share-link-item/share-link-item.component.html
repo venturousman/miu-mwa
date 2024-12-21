@@ -1,0 +1,20 @@
+<div class="shared-link-item">
+  <div class="sl-name">
+    <i class="fa-solid fa-link"></i>
+    <span>{{ data()?.destination }}</span>
+  </div>
+
+  <div class="sl-date">
+    <p>{{ formatDateToDDMMYYYY(data()?.startDate ?? '') }} - {{ formatDateToDDMMYYYY(data()?.endDate ?? '') }}</p>
+  </div>
+
+  <div class="sl-action">
+    <button mat-icon-button (click)="handleCopyLink()" [disabled]="disableAction()">
+      <mat-icon>content_copy</mat-icon>
+    </button>
+    <button mat-icon-button (click)="handleOnRemoveItem()" [disabled]="disableAction()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+</div>

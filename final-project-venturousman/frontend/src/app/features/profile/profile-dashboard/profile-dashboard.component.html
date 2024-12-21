@@ -1,0 +1,37 @@
+<div class="profile-dashboard-container">
+  <div class="dashboard-menu">
+    <p class="dashboard-title">Dashboard</p>
+    <nav class="nav-links">
+      <a routerLink="/profile" routerLinkActive="active" class="dm-item" [routerLinkActiveOptions]="{ exact: true }">
+        <div>
+          <i class="fa-solid fa-address-card"></i>
+          <span class="menu-item-title">Profile</span>
+        </div>
+      </a>
+      <a routerLink="/profile/archived" routerLinkActive="active" class="dm-item"
+         [routerLinkActiveOptions]="{ exact: false }">
+        <div>
+          <i class="fa-solid fa-box-archive"></i>
+          <span class="menu-item-title">Saved Plan</span>
+        </div>
+      </a>
+      <a routerLink="/profile/shared-links" routerLinkActive="active" class="dm-item"
+         [routerLinkActiveOptions]="{ exact: false }">
+        <div>
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+          <span class="menu-item-title">Shared links</span>
+        </div>
+      </a>
+      <a class="dm-item logout-menu" (click)="handleLogOut()">
+        <div>
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <span class="menu-item-title">Log out</span>
+        </div>
+      </a>
+    </nav>
+  </div>
+
+  <div class="dashboard-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+
+### Get all users
+GET https://mwa-final-backend-c3cqhkhbfwbuhye0.westus-01.azurewebsites.net/api/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzViNTRjYmM0YmQ1ZDZhYTUxODM2MzgiLCJmdWxsbmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huZG9lQG1pdS5lZHUiLCJpYXQiOjE3MzQwMzg3NTQsImV4cCI6MTczNDAzOTY1NH0.ihICZ3YEpXg3Bqv5sykgGLdagW_wO9QPGC_m8s-ejLc

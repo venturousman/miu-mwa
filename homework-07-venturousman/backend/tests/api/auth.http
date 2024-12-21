@@ -1,0 +1,10 @@
+### login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+
+###

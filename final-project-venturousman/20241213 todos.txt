@@ -1,0 +1,5 @@
+- init projects
+- setup ci/cd
+- signin
+- signup
+- signout

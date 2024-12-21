@@ -1,0 +1,57 @@
+.shared-link-header {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  background: rgb(224, 238, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.slh-name {
+  flex: 7;
+  align-items: start;
+}
+
+.slh-date {
+  flex: 2;
+  align-items: start;
+}
+
+.slh-action {
+  flex: 1;
+  align-items: end;
+  text-align: end;
+  padding: 4px;
+  margin-top: 2px;
+}
+
+
+button[mat-icon-button] {
+  align-items: end;
+  justify-content: end;
+}
+
+.shared-link-container {
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.fetching-data {
+  height: 8px;
+}
+
+.empty-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+}
+
+.empty-content >p {
+  text-align: center;
+  align-items: center;
+}

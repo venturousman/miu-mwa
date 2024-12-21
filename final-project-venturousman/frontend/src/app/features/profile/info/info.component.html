@@ -1,0 +1,159 @@
+<div class="profile-container">
+  <div class="profile-form">
+    <mat-card-content>
+      <div class="file-upload">
+        <button class="circle-button" (click)="fileInput.click()">
+          @if (imageSrc) {
+            <img [src]="imageSrc" alt="Avatar"/>
+          } @else {
+            <i class="fa-solid fa-image fa-2xl"></i>
+          }
+        </button>
+        <mat-label>{{
+            selectedFile?.name?.slice(-10) ?? ''
+          }}
+        </mat-label>
+        <input
+          type="file"
+          id="fileInput"
+          (change)="onAvatarChanged($event)"
+          #fileInput
+          hidden
+        />
+      </div>
+      <form
+        [formGroup]="updateForm"
+        (ngSubmit)="onSubmit()"
+        class="form-body"
+      >
+
+        <!-- Name -->
+        <mat-label>Your name</mat-label>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-icon matIconSuffix>account_circle</mat-icon>
+          <input
+            matInput
+            type="text"
+            formControlName="fullName"
+            placeholder="Enter your name"
+            required
+          />
+          @if (this.fullName.hasError('required')) {
+            <mat-error> Your name is required.</mat-error>
+          }
+          @if (this.fullName.hasError('minlength')) {
+            <mat-error>
+              Your name must be at least 5 characters long.
+            </mat-error>
+          }
+        </mat-form-field>
+
+        <!-- Email -->
+        <mat-label>Email</mat-label>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-icon matIconSuffix>mail</mat-icon>
+          <input
+            matInput
+            type="email"
+            formControlName="email"
+            placeholder="Enter email address"
+            required
+          />
+          @if (this.email?.hasError('required')) {
+            <mat-error> Email is required.</mat-error>
+          }
+          @if (this.email?.hasError('email')) {
+            <mat-error> Enter a valid email.</mat-error>
+          }
+        </mat-form-field>
+
+        <!-- Password -->
+        <mat-label>New password</mat-label>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-icon
+            class="toggle-view"
+            matIconSuffix
+            (click)="toggleShowPassword()"
+          >{{
+              this.$showPassword()
+                ? 'visibility'
+                : 'visibility_off'
+            }}
+          </mat-icon>
+          <input
+            matInput
+            type="{{ this.$showPassword() ? 'text' : 'password' }}"
+            formControlName="password"
+            placeholder="Enter password"
+            required
+          />
+          @if (this.password.hasError('required')) {
+            <mat-error> Password is required.</mat-error>
+          }
+          @if (this.password.hasError('minlength')) {
+            <mat-error>
+              Password must be at least 6 characters long.
+            </mat-error>
+          }
+        </mat-form-field>
+
+        <!-- Password -->
+        <mat-label>Confirm password</mat-label>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-icon
+            class="toggle-view"
+            matIconSuffix
+            (click)="toggleShowPassword()"
+          >{{
+              this.$showPassword()
+                ? 'visibility'
+                : 'visibility_off'
+            }}
+          </mat-icon>
+          <input
+            matInput
+            type="{{ this.$showPassword() ? 'text' : 'password' }}"
+            formControlName="confirmPassword"
+            placeholder="Enter confirm password"
+            required
+          />
+          @if (this.confirmPassword?.hasError('required')) {
+            <mat-error> Password is required.</mat-error>
+          }
+          @if (this.confirmPassword?.hasError('minlength')) {
+            <mat-error>
+              Password must be at least 6 characters long.
+            </mat-error>
+          }
+          @if (this.confirmPassword?.hasError('mustMatch')) {
+            <mat-error> Passwords do not match.</mat-error>
+          }
+        </mat-form-field>
+
+        @if (this.$submitState() === SubmitState.ERROR) {
+          <mat-error> Sign up failed. Please try again.</mat-error>
+        }
+
+        <!-- Button -->
+        <div class="update-form-button">
+          <button
+            mat-flat-button
+            color="primary"
+            class="update-button"
+            type="submit"
+            [disabled]="
+                            updateForm.invalid ||
+                            this.$submitState() === SubmitState.FETCHING
+                        "
+          >
+            @if ($submitState() === SubmitState.FETCHING) {
+              <mat-spinner [diameter]="20" [strokeWidth]="2"></mat-spinner>
+            } @else {
+              Update
+            }
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </div>
+</div>

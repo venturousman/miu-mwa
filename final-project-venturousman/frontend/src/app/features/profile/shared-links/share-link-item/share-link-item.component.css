@@ -1,0 +1,30 @@
+.shared-link-item{
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.21);
+}
+
+.sl-name{
+  flex: 7;
+  align-items: start;
+  align-content: center;
+}
+
+.sl-name > i{
+  margin-right: 10px;
+}
+
+.sl-date{
+  flex: 2;
+  align-items: start;
+}
+
+.sl-action{
+  flex: 1;
+  align-items: end;
+  text-align: end;
+  margin-top: 4px;
+  margin-right: 4px;
+}

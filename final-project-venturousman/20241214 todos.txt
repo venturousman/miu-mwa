@@ -1,0 +1,46 @@
+- TODO: research api weather, yelp, bookings.com (OpenWeatherMap or Weatherstack)
+
+
+1. planning page 
+	input destination , date range, budget, people number, ...
+	AI generate (expect destination consists of accommodation, restaurants, ...)
+	save itinerary
+
+2. archive page / itineraries page
+	+ save -> archive like chatgpt
+3. itinerary page (can modify/ask more) / share page (k co modify)
+	+ history planning -> adjust (e.g. inc/desc 1 day)
+
+4. shared page (can delete shared links)
+	+ share by link: /itinerary/id (like chatgpt /share/id) who have link can access
+
+
+============== tech debt
+- return avatar images to show
+
+============== potential
+- update profile page?
+- comment and rating on itinerary?
+
+
+"weather": {
+    "averageTemperature": {
+      "summer": Number,
+      "winter": Number,
+      "spring": Number,
+      "fall": Number
+    },
+    "precipitation": {
+      "summer": Number,
+      "winter": Number,
+      "spring": Number,
+      "fall": Number
+    },
+    "generalClimate": String // e.g., "Tropical", "Dry", "Temperate"
+  },
+
+
+======================================
+
+via emails ? OR pdf ? OR like isPublic not private? 
+	only shared emails/users can see on list? 

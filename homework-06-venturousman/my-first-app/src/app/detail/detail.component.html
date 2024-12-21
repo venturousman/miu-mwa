@@ -1,0 +1,39 @@
+<div class="product-detail">
+    <a [routerLink]="['/products']" class="action">Back to list</a>
+    <a [routerLink]="['/products', 'edit', $product()?.id]" class="action"
+        >Edit</a
+    >
+    <button (click)="deleteProduct()" class="action">Delete</button>
+    <h1>{{ $product()?.title }}</h1>
+    <div class="product-image">
+        <img [src]="$product()?.thumbnail" alt="{{ $product()?.title }}" />
+    </div>
+    <div class="product-info">
+        <p><strong>Brand:</strong> {{ $product()?.brand }}</p>
+        <p><strong>Category:</strong> {{ $product()?.category }}</p>
+        <p><strong>Price:</strong> {{ $product()?.price }}</p>
+        <p><strong>Discount:</strong> {{ $product()?.discountPercentage }}%</p>
+        <p><strong>Stock:</strong> {{ $product()?.stock }}</p>
+        <p><strong>Rating:</strong> {{ $product()?.rating }}</p>
+        <p><strong>Warranty:</strong> {{ $product()?.warrantyInformation }}</p>
+        <p><strong>Shipping:</strong> {{ $product()?.shippingInformation }}</p>
+        <p>
+            <strong>Availability:</strong> {{ $product()?.availabilityStatus }}
+        </p>
+        <p><strong>Return Policy:</strong> {{ $product()?.returnPolicy }}</p>
+    </div>
+    <div class="product-description">
+        <h2>Description</h2>
+        <p>{{ $product()?.description }}</p>
+    </div>
+    <div class="product-reviews">
+        <h2>Reviews</h2>
+        <div *ngFor="let review of $product()?.reviews">
+            <p>
+                <strong>{{ review.reviewerName }}</strong> ({{ review.date }}):
+            </p>
+            <p>{{ review.comment }}</p>
+            <p>Rating: {{ review.rating }}</p>
+        </div>
+    </div>
+</div>

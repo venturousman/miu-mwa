@@ -1,0 +1,71 @@
+<div class="login-form">
+  <mat-card-header>
+    <div class="login-form-header">
+      <button mat-icon-button mat-dialog-close>
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+    <p class="login-form-title">Welcome Back!</p>
+    <p class="login-form-subtitle">Please enter your detail</p>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="form-body">
+      <mat-label>Email</mat-label>
+      <mat-form-field appearance="outline" class="full-width" prefix="sss">
+        <mat-icon matIconSuffix>mail</mat-icon>
+        <input matInput type="email" formControlName="email" placeholder="Enter email address" required/>
+        @if (this.email?.hasError('required')) {
+          <mat-error>
+            Email is required.
+          </mat-error>
+        }
+        @if (this.email?.hasError('email')) {
+          <mat-error>
+            Enter a valid email.
+          </mat-error>
+        }
+      </mat-form-field>
+
+      <mat-label>Password</mat-label>
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-icon class="toggle-view" matIconSuffix
+                  (click)="toggleShowPassword()">{{ this.$showPassword() ? 'visibility' : 'visibility_off' }}
+        </mat-icon>
+        <input matInput type="{{this.$showPassword()? 'text':'password'}}" formControlName="password"
+               placeholder="Enter password" required/>
+        @if (this.password?.hasError('required')) {
+          <mat-error>
+            Password is required.
+          </mat-error>
+        }
+        @if (this.password?.hasError('minlength')) {
+          <mat-error>
+            Password must be at least 6 characters long.
+          </mat-error>
+        }
+      </mat-form-field>
+
+      @if (this.$submitState() === SubmitState.ERROR) {
+        <mat-error>
+          Login failed. Please try again.
+        </mat-error>
+      }
+
+      <div class="login-form-button">
+        <button mat-flat-button color="primary" class="login-button" type="submit"
+                [disabled]="loginForm.invalid || $submitState()===SubmitState.FETCHING">
+
+          @if ($submitState()=== SubmitState.FETCHING) {
+            <mat-spinner [diameter]="20" [strokeWidth]="2"></mat-spinner>
+          } @else {
+            Log in
+          }
+        </button>
+      </div>
+      <div class="login-form-footer">
+        <span>Don't have an account yet?</span>
+        <span class="sign-up" (click)="handleSignUp()" mat-dialog-close>Sign up</span>
+      </div>
+    </form>
+  </mat-card-content>
+</div>

@@ -1,0 +1,26 @@
+<div class="shared-container">
+  <div class="fetching-data">
+    @if (this.$state() === SubmitState.FETCHING) {
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    }
+  </div>
+
+  @if (this.$state() === SubmitState.ERROR) {
+    <div class="error-container">
+
+      <app-not-found [message]="$errorMessage()"></app-not-found>
+    </div>
+  }
+
+  <!-- Itinerary -->
+  <div class="itinerary-content">
+    @if (this.$itineraryData() && this.$itineraryData().content &&
+    this.$itineraryData().content.length > 0) {
+      <app-itinerary
+        [itineraryId]="this.$itineraryData().id"
+        [recommendContent]="this.$itineraryData().content"
+        [showActionButton]="false"
+      />
+    }
+  </div>
+</div>

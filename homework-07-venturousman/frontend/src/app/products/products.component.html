@@ -1,0 +1,15 @@
+<div>
+    <h1>Products</h1>
+    <mat-paginator
+        [length]="$total()"
+        [pageSize]="pageSize"
+        (page)="onPageChange($event)"
+    ></mat-paginator>
+    <mat-grid-list cols="3" rowHeight="1:1" gutterSize="16px">
+        @for (product of $products(); track product.id) {
+        <mat-grid-tile>
+            <app-product [data]="product" />
+        </mat-grid-tile>
+        }
+    </mat-grid-list>
+</div>

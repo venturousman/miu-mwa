@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/weather
+Content-Type: application/json
+
+{ "text": "What's the weather like in Iowa today?" }
+### { "text": "What's the weather like in Paris today?" }
+### { "lat": 41.02274040751323, "lon": -91.96531828455507 }

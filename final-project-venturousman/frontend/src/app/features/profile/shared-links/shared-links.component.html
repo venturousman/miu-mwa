@@ -1,0 +1,53 @@
+<div class="share-link-container">
+  <!--  Header-->
+  <div class="shared-link-header">
+    <div class="slh-name">
+      <p>Name</p>
+    </div>
+
+    <div class="slh-date">
+      <p>Date</p>
+    </div>
+
+    <div class="slh-action">
+      <button mat-icon-button (click)="onRemoveAllItem()"
+              [disabled]="$pageData().items.length === 0 || this.$state() === SubmitState.FETCHING">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+
+  </div>
+
+  <!--  Content-->
+  <div class="fetching-data">
+    @if (this.$state() === SubmitState.FETCHING) {
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    }
+  </div>
+
+  <div class="shared-link-container">
+    @if ($pageData() && $pageData().items && $pageData().items.length !== 0) {
+      @for (item of $pageData().items; track item.id) {
+        <app-share-link-item
+          [data]="item"
+          [disableAction]="this.$state() === SubmitState.FETCHING"
+          [onRemoveItem]="onRemoveItem"
+          [onCopyLink]="onCopyLink"
+        />
+      }
+    } @else {
+      @if (this.$state() !== SubmitState.FETCHING) {
+        <div class="empty-content">
+          <p>No shared link</p>
+        </div>
+      }
+    }
+  </div>
+
+  <!--  Footer-->
+  <mat-paginator [length]="$totalItems()"
+                 [pageSize]="10"
+                 (page)="onPageChange($event)"
+                 aria-label="Select page">
+  </mat-paginator>
+</div>

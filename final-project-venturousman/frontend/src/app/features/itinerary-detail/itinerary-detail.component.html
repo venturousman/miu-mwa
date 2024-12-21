@@ -1,0 +1,33 @@
+<div class="itinerary-detail-container">
+  <mat-card-header>
+    <div class="itinerary-detail-header">
+      <button mat-icon-button mat-dialog-close>
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+  </mat-card-header>
+  <div class="id-body">
+    <div class="fetching-data">
+      @if (this.$state() === SubmitState.FETCHING) {
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      }
+    </div>
+
+    <div class="error-container">
+      @if (this.$state() === SubmitState.ERROR) {
+        <app-not-found></app-not-found>
+      }
+    </div>
+
+    <!-- Itinerary -->
+    @if (this.$itineraryData() && this.$itineraryData().content &&
+    this.$itineraryData().content.length > 0) {
+      <app-itinerary
+        [itineraryId]="this.$itineraryData().id"
+        [recommendContent]="this.$itineraryData().content"
+        [showActionButton]="true"
+        [hideSaveButton]="true"
+      />
+    }
+  </div>
+</div>

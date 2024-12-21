@@ -1,0 +1,49 @@
+### signin
+POST https://mwa-final-backend-c3cqhkhbfwbuhye0.westus-01.azurewebsites.net/api/auth/signin
+Content-Type: application/json
+
+{
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+
+### refresh token
+POST https://mwa-final-backend-c3cqhkhbfwbuhye0.westus-01.azurewebsites.net/api/auth/refresh-token
+Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzViNzZiODhlZjIxMjdmNTg3ZjY2NDciLCJmdWxsbmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huZG9lQG1pdS5lZHUiLCJpYXQiOjE3MzQwNDg1NjMsImV4cCI6MTczNDY1MzM2M30.kth9Z7DUVp6dQ7QvDSkYJtbuOsanqFIO9mRIhEaww84
+Content-Type: application/json
+
+### signup a user
+POST https://mwa-final-backend-c3cqhkhbfwbuhye0.westus-01.azurewebsites.net/api/auth/signup
+Content-Type: application/json
+
+{
+    "fullname": "John Doe",
+    "email": "johndoe@miu.edu",
+    "password": "Passw@rd"
+}
+// NOTE: no comma at the end of the JSON object
+
+### signup a user
+POST https://mwa-final-backend-c3cqhkhbfwbuhye0.westus-01.azurewebsites.net/api/auth/signup
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="fullname"
+
+Alan Smith
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+alansmith@miu.edu
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="password"
+
+Passw@rd
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="profile_picture"; filename="puppy.jpg"
+Content-Type: image/jpeg
+
+./puppy.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###

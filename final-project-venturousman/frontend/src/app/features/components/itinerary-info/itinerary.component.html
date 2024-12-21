@@ -1,0 +1,19 @@
+<div class="itinerary-container">
+  <div class="itinerary-container-view">
+    <markdown [data]="this.recommendContent()"></markdown>
+
+    @if (this.showActionButton()) {
+      <div class="itinerary-bottom-view">
+        @if (!this.hideSaveButton()) {
+          <button mat-icon-button mat-dialog-close (click)="handleSave()">
+            <mat-icon>save</mat-icon>
+          </button>
+        }
+
+        <button mat-icon-button mat-dialog-close (click)="handleShare()">
+          <mat-icon>share</mat-icon>
+        </button>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.carousel-container {
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+  height: 50vh;
+  background-color: lightgray;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.mat-mdc-tab-label-container{
+  visibility: hidden !important;
+}
+
